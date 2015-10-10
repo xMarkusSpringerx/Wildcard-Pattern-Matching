@@ -1,0 +1,5 @@
+# Wildcard-Pattern-Matching
+
+Viele Programme, z. B. Texteditoren und Kommandozeilen-Interpretierer diverser Betriebssysteme (engl. shells), verwenden eine spezielle Variante der Zeichenkettensuche, die in der Musterkette Platzhalter (auch Jokerzeichen, engl. wildcards, genannt) zulässt. Denken Sie z. B. an den MS- DOS/Windows-Befehl del *.* bzw. an das äquivalente UNIX-Kommando rm *. Hier muss festge- stellt werden, ob die Musterkette (*.* bzw. *) zu einem Dateinamen im aktuellen Verzeichnis passt.
+Jokerzeichen dürfen nur in Musterketten vorkommen: Dabei steht das Jokerzeichen ? für ein belie- biges Zeichen in der Zeichenkette und das Jokerzeichen * für eine beliebige Anzahl (null oder mehr) beliebiger Zeichen in der Zeichenkette. Jokerzeichen können auch gemischt und mehrfach in einer Musterkette vorkommen.
+Nehmen Sie an, dass sowohl die Muster- als auch die Zeichenkette durch das spezielle Endezeichen $ abgeschlossen ist, das innerhalb der Ketten nicht vorkommt. Folgende Tabelle zeigt einige einfa- che Beispiele:
